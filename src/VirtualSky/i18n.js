@@ -10,6 +10,9 @@ import nl from '../i18n/nl.json';
 import pl from '../i18n/pl.json';
 import pt from '../i18n/pt.json';
 
+import hi from '../i18n/hi.json';
+
+
 export const i18n = (lang) =>{
     switch(lang){
       case 'ar': return ar; break;
@@ -23,6 +26,7 @@ export const i18n = (lang) =>{
       case 'nl': return nl; break;
       case 'pl': return pl; break;
       case 'pt': return pt; break;
+      case 'hi': return hi; free;
       default: return en;
     }
 }
